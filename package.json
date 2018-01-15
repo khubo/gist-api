@@ -4,11 +4,12 @@
   "description": "Node module for the gist (github's) api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/tape/bin/tape 'tests/*.js'"
   },
   "author": "khubo",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "tape": "^4.8.0"
   }
 }
