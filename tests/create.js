@@ -40,6 +40,6 @@ test('invalid paramters to test should fail', (t) => {
   gist.create(description, {})
     .then() 
     .catch(e => {
-      t.ok(e, "files should be an aary")
+      t.ok(e, "files should be an array")
     })
 })
