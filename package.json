@@ -1,0 +1,14 @@
+{
+  "name": "gist-api",
+  "version": "0.1.0",
+  "description": "Node module for the gist (github's) api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khubo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}
